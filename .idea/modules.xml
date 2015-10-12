@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/mycode.iml" filepath="$PROJECT_DIR$/.idea/mycode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timeout/.idea/timeout.iml" filepath="$PROJECT_DIR$/timeout/.idea/timeout.iml" />
     </modules>
   </component>
 </project>
