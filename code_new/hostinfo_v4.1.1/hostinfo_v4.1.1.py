@@ -255,6 +255,7 @@ def execcmd(chan):
             #print "-------------"
             #print singles
             chan.send('cat /etc/sudoers|grep -e \"^'+username+'\"|awk \'{if(NF==4 && $3$4==\"NOPASSWD:ALL\"){print \"sqx=ROOT\"}}\'\n')
+
             chan.send('cat /etc/sudoers|grep -e \"^'+username+'\"|awk \'{if(NF==3 && $3==\"NOPASSWD:ALL\"){print \"sqx=ROOT\"}}\'\n')
             buff = ''
             while not re.findall(r'(#|#\s+)$',buff,re.M):
